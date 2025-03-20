@@ -31,7 +31,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Design inspiration from various portfolio sites
 - Icons from React Icons
 - Inter font from Google Fonts
+- 
 
 
-
-Project Link: [https://github.com/yourusername/portfolio-website](https://github.com/yourusername/portfolio-website) 
