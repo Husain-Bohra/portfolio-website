@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-section {
+    @apply max-w-7xl mx-auto px-4 py-20;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-12 text-center;
+  }
+  
+  .interactive {
+    @apply cursor-none;
+  }
+}
+
+:root {
+  --primary: #0ea5e9;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1e293b; /* slate-800 for light mode */
+}
+
+.dark body {
+  color: #f1f5f9; /* slate-100 for dark mode */
+  background-color: #0f172a; /* slate-900 for dark mode */
+}
+
+html {
+  scroll-behavior: smooth;
+} 
